@@ -1,66 +1,76 @@
-.body{
+.body {
   display: flex;
   flex-direction: column;
-margin: auto;
-width: 500px;
-/* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  margin: auto;
+  width: 500px;
 }
-.profile{
+.profile {
   border-radius: 50px;
   width: 45px;
   height: 45px;
   line-height: 70px;
-padding: 3px;
-display: inline;
-text-align: center;
+  padding: 3px;
+  display: inline;
+  text-align: center;
 }
-.name{
+
+.name {
   padding-left: 10px;
 }
-.dots{
+
+.dots {
   margin-top: 25px;
   background-color: white;
   height: 25px;
   margin-right: 15px;
 }
 
-.img{
+.img {
   width: 500px;
   height: 320px;
 }
-.header{
+
+.header {
   display: flex;
   justify-content: space-between;
 }
-.intro{
+
+.intro {
   display: flex;
 }
-.interact{
+
+.interact {
   display: flex;
   justify-content: flex-start;
   font-size: 20px;
 }
-.heart{
+
+.heart {
   margin: 10px;
 }
-.save{
+
+.save {
   margin: 10px;
 }
-.icons{
+
+.icons {
   display: flex;
   justify-content: space-between;
   text-align: center;
 }
-p{
+
+p {
   margin: 0px;
   margin-left: 10px;
 }
-h4{
+
+h4 {
   margin: 0px;
   margin-top: 3px;
   margin-left: 10px;
 }
-.grey{
+
+.grey {
   color: gray;
   margin-left: 10px;
 }
